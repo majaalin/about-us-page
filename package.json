@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "rollup --config --environment NODE_ENV:production",
+    "deploy": "npm run build && gh-pages -d public",
+    "start": "rollup --config --watch"
+  },
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@sanity/client": "^1.149.2",
+    "babel": "^6.23.0",
+    "cssnano": "^4.1.10",
+    "es6-promise": "^4.2.8",
+    "native-promise-only": "^0.8.1",
+    "node-sass": "^4.13.1",
+    "postcss-normalize": "^8.0.1",
+    "rollup": "^1.32.1",
+    "rollup-plugin-postcss": "^2.2.0",
+    "rollup-plugin-terser": "^5.2.0",
+    "superheroes": "^3.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "autoprefixer": "^9.7.4",
+    "cross-env": "^7.0.2",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-browsersync": "^1.1.0"
+  }
+}

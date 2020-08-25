@@ -1,6 +1,6 @@
 # "About us" page
 
-![Image description](readme.png)
+![Image description](readme-img.png)
 
 An "About us" page build with headless CMS Sanity
 
